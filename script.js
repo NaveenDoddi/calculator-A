@@ -62,7 +62,7 @@ function per(){
     document.getElementById("input").append("%")
 }
 function ans(){
-
+    document.getElementById("output").innerHTML=" "
     var input = document.getElementById("input").innerHTML
     let Array=[];
     for(let x=0; x<input.length; x++){
